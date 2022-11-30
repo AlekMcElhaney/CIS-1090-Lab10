@@ -22,5 +22,11 @@ let myFish = {
 
 //❓❓ LAB QUESTION 6, 7, 8:
 function introduce (myPet) { 
-
+ console.log("Speak," + myCat.name + myDog.name + myFish.name );
+ myCat.speak();
+ myDog.speak();
+ myFish.speak();
+ introduce(myCat);
+ introduce (myDog);
+ introduce (myFish);
 }
